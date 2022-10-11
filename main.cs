@@ -1,16 +1,18 @@
 // Created by: Mikey Gloriani
 // Created on: Oct 2022
 //
-// This program displays, "Hello, World!"
+// This program does basic math
 
+using System; 
 
-using System;
-
-class Program
+class Program 
 {
-    public static void Main(string[] args)
+  
+    public static void Main(string[] args) 
     {
-        Console.WriteLine("Hello, World!");
+        Console.WriteLine("The dimensions of a rectangle are 5 cm and 3 cm. What is the area and perimeter?");
+        Console.WriteLine("The area is") + (5*3);
+        Console.WriteLine("The perimeter is") + (2*(5+3));
         Console.WriteLine("\nDone.");
     }
 }
